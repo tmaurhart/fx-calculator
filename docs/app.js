@@ -38,14 +38,13 @@ document.querySelector('button').addEventListener('click', () => {
 });
 
 function convert(inputValue, inputCurrency, outputCurrency) {
-
     return new Promise((resolve, reject) => {
 
         fetch(fixerUri).then(response => {
             if (response.status == 200) {
                 return response.json();
-            }else{
-                return Promise.reject('faild to download rates');
+            } else {
+                return Promise.reject('failed to download rates');
             }
         }).then((data) => {
             let rates = data['rates'];
@@ -55,12 +54,13 @@ function convert(inputValue, inputCurrency, outputCurrency) {
                 inputValue = inputValue / rates[inputCurrency];
             }
 
-            //let outputValue = inputValue * rates[outputCurrency];
             resolve(inputValue * rates[outputCurrency]);
         });
+
     });
 }
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(console.error);
+    navigator.serviceWorker.register('sw.js')
+        .catch(console.error);
 }
