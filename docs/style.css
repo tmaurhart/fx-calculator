@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: #282828;
     font-family: sans-serif;
+    color: #FFF;
 }
 
 h1 {
@@ -13,7 +14,7 @@ main {
 }
 
 section {
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     padding: 5px;
     margin-bottom: 10px;
 }
@@ -29,7 +30,8 @@ section select {
 }
 
 button {
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     background: #FFF;
     width: 100%;
+    color: #000;
 }
