@@ -28,7 +28,7 @@ section select {
     flex: 0 1 25%;
 }
 
-section button {
+button {
     border: 1px solid #000;
     background: #FFF;
     width: 100%;
