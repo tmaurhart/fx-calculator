@@ -6,6 +6,8 @@ self.addEventListener('install', (event) => {
                 'index.html',
                 'style.css',
                 'app.js',
+                'manifest.webmanifest',
+                'rates.json',
                 'icons/icon512.png',
                 'icons/icon16.png',
                 'icons/android-chrome-192x192.png',
@@ -15,9 +17,7 @@ self.addEventListener('install', (event) => {
                 'icons/favicon-32x32.png',
                 'icons/favicon.ico',
                 'icons/mstile-150x150.png',
-                'icons/safari-pinned-tab.svg',
-                'manifest.webmanifest',
-                'rates.json'
+                'icons/safari-pinned-tab.svg'
             ]))
     );
 });
