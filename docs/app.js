@@ -13,7 +13,8 @@ if (isIos() && !isInStandaloneMode()) {
 
 //const fixerUri = 'http://data.fixer.io/api/latest?base="EUR&symbols=USD,SEK,CHF&access_key=';
 //const fixerUri = 'https://stefanhuber.github.io/fx-calculator/rates.json';
-const fixerUri = 'rates.json';
+const fixerUri = 'https://api.exchangeratesapi.io/latest';
+//const fixerUri = 'rates.json';
 
 document.querySelectorAll('select').forEach(element => {
     element.innerHTML = `
