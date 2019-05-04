@@ -1,0 +1,14 @@
+{
+    "name": "fx-calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "web": "http-server www"
+    },
+    "author": "Thomas Maurhart",
+    "license": "ISC",
+    "dependencies": {
+        "browser-sync": "^2.26.5"
+    }
+}
