@@ -1,0 +1,23 @@
+{
+    "name": "FX Calculator",
+    "short_name": "FX Calc",
+    "display": "standalone",
+    "start_url": ".",
+    "scope": "/fx-calculator/", 
+    "background_color": "#cfc",
+    "theme_color": "#cfc",
+    "description": "Simple FX Calculator based on fixer.io API",
+    "icons": [
+        {
+        "src": "icon512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        },
+        {
+            "src": "icon16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "badge"
+        }
+    ]
+}
