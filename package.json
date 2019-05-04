@@ -4,11 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "web": "http-server www"
+        "start": "browser-sync start --server ./docs"
     },
     "author": "Thomas Maurhart",
     "license": "ISC",
-    "dependencies": {
+    "devDependencies": {
         "browser-sync": "^2.26.5"
     }
 }
