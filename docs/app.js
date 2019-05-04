@@ -18,7 +18,7 @@ document.querySelector('button').addEventListener('click', () => {
 
     convert(inputValue, inputCurrency, outputCurrency)
         .then((outputValue) => {
-            document.querySelector('[name="output-value"]').value = outputValue
+            document.querySelector('[name="output-value"]').value = outputValue;
         });
 });
 
