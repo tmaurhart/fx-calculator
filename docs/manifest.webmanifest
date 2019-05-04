@@ -9,9 +9,9 @@
     "description": "Simple FX Calculator based on fixer.io API",
     "icons": [
         {
-        "src": "icon512.png",
-        "sizes": "512x512",
-        "type": "image/png"
+            "src": "icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         },
         {
             "src": "icon16.png",
