@@ -1,6 +1,7 @@
 // Detects if device is on iOS 
 const isIos = () => {
     const userAgent = window.navigator.userAgent.toLowerCase();
+    //console.log(userAgent);
     return /iphone|ipad|ipod/.test(userAgent);
 }
 // Detects if device is in standalone mode
@@ -13,8 +14,8 @@ if (isIos() && !isInStandaloneMode()) {
 
 //const fixerUri = 'http://data.fixer.io/api/latest?base="EUR&symbols=USD,SEK,CHF&access_key=';
 //const fixerUri = 'https://stefanhuber.github.io/fx-calculator/rates.json';
-const fixerUri = 'https://api.exchangeratesapi.io/latest';
 //const fixerUri = 'rates.json';
+const fixerUri = 'https://api.exchangeratesapi.io/latest';
 
 document.querySelectorAll('select').forEach(element => {
     element.innerHTML = `
@@ -22,7 +23,7 @@ document.querySelectorAll('select').forEach(element => {
         <option value="USD">USD</option>
         <option value="CHF">CHF</option>
         <option value="SEK">SEK</option>
-        `;
+    `;
 });
 
 document.querySelector('button').addEventListener('click', () => {
