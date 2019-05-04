@@ -32,7 +32,7 @@ function convert(inputValue, inputCurrency, outputCurrency) {
             }else{
                 return Promise.reject('faild to download rates');
             }
-        }).then((rates) => {
+        }).then((data) => {
             let rates = data['rates'];
             rates["EUR"] = 1;
 
