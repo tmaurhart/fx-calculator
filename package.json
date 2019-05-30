@@ -10,5 +10,8 @@
     "license": "ISC",
     "devDependencies": {
         "browser-sync": "^2.26.5"
+    },
+    "dependencies": {
+        "axios": "^0.18.0"
     }
 }
