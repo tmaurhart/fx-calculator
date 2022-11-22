@@ -9,7 +9,7 @@
     "author": "Thomas Maurhart",
     "license": "ISC",
     "devDependencies": {
-        "browser-sync": "^2.26.7"
+        "browser-sync": "^2.27.10"
     },
     "dependencies": {
         "lodash": "^4.17.14",
